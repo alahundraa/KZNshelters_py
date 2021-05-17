@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+fbody {
+    font-family: Oswald, sans-serif;
+    color: #3D3D40;
+}
+header {
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.content{
+    margin-top: 50px;
+}
+header div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+header img {
+    transform: scaleX(-1);
+    width: 95px;
+}
+header a {
+    text-decoration: none;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #404040;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    transition: color 0.3s;
+}
+header div:hover h1 {
+    color: #3BA0FF;
+}
+header nav {
+    display: flex;
+}
+header nav a {
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0c0f63;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+header nav a:hover {
+    color: #3BA0FF;
+}
+header section {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+header #sign-in {
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+}
